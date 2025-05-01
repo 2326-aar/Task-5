@@ -23,6 +23,32 @@ The dataset used is the **Heart Disease Dataset**, which contains medical attrib
 - **Target column**: `target`  
   - 1 → Presence of heart disease  
   - 0 → Absence of heart disease
+## ✅ Steps Followed
+
+### Step 1: Data Loading & Preprocessing
+- Loaded `heart.csv` using `pandas`.
+- Split data into **features (X)** and **target (y)**.
+- Performed an 80/20 train-test split.
+
+### Step 2: Decision Tree Classifier
+- Trained a default `DecisionTreeClassifier`.
+- Evaluated performance on test set using accuracy score.
+- Visualized the decision tree using `plot_tree()`.
+
+### Step 3: Overfitting Control
+- Limited tree depth (`max_depth=4`) to reduce overfitting.
+- Compared pruned tree accuracy vs. full tree accuracy.
+
+### Step 4: Random Forest Classifier
+- Trained a `RandomForestClassifier` with 100 estimators.
+- Evaluated performance using test accuracy and classification report.
+
+### Step 5: Feature Importance
+- Visualized importance of each feature using bar chart.
+
+### Step 6: Cross-Validation
+- Used `cross_val_score` to compute 5-fold cross-validation accuracy.
+- Compared CV scores of Decision Tree and Random Forest.
 
 **Attributes include**:
 - age
