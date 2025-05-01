@@ -1,8 +1,7 @@
-# Task-3
-# 🌳 Task 5: Decision Trees and Random Forests - AI & ML Internship Project
+# Task-5
+# Decision Trees and Random Forests 
 
-This repository contains the complete implementation of **Decision Tree** and **Random Forest** models using the **Heart Disease Dataset**. It is developed as part of the AI & ML Internship to gain hands-on experience with tree-based models, model evaluation, and ensemble learning techniques.
-
+This repository contains the complete implementation of **Decision Tree** and **Random Forest** models using the **Heart Disease Dataset**. 
 ---
 
 ## 📌 Objectives
